@@ -1,0 +1,24 @@
+{
+    "name": "divlooper/elastic-apm-bundle",
+    "description": "Elastic APM Client for Symfony",
+    "type": "symfony-bundle",
+    "require": {
+        "philkra/elastic-apm-php-agent": "^6.4"
+    },
+    "license": "MIT",
+    "keywords": ["elastic", "apm"],
+    "autoload": {
+        "psr-4": { "DivLooper\\ElasticAPMBundle\\": "src/" }
+    },
+    "authors": [
+        {
+            "name": "Khaled Attia",
+            "email": "khaledattia@gmail.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
