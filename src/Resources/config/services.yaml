@@ -1,0 +1,6 @@
+services:
+    DivLooper\ElasticAPMBundle\ElasticAPMAgent:
+        arguments:
+            - null
+        autowire: true
+
